@@ -1,0 +1,106 @@
+.navbar{
+   background-color: #f;
+  margin-left: 0px;
+}
+.nav-item .nav-link {
+   display: block;
+   text-align: center;
+   padding: 10px 16px;
+   margin-left: 25px;
+   text-decoration: none;
+   color : rgb(0, 0, 0);
+   font-weight: bold;
+   font-family:  Georgia, Times, serif;
+   font-size: 20px;
+ }
+.logo{
+   height: 100px;
+   margin-left: 170px;
+   margin-top: 5px;
+   width: 100px;
+}
+.navbar-nav{
+   margin-left: 270px;
+}
+.nav-item .nav-link:hover:not(.active) {
+   background-color:#9C27B0;
+    border: 1px solid#9C27B0;
+    border-radius: 10px;
+    color:white !important;
+     padding-right: 30px;
+     padding-left: 30px;     
+ }
+ .fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+ }
+ /* .carousel-inner {
+   max-height: 450px;
+   .
+ } */
+ .carousel-item3{
+    width: 550px;
+ }
+   .fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #9C27B0;
+ }
+ h3{
+    color: #9C27B0;
+ }
+ .card1,.card2,.card3{
+    display: flex;
+    width: 30%;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px rgb(223, 208, 223);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+ }
+ .mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ @media screen and (max-width:600px ){
+   .card1,.card2,.card3{
+      width: 100%;
+   }
+} 
+.newArrivals{
+   margin-top: 50px;
+}
+.featuredProduct{
+   margin-top: 240px;
+}
+.heading{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: initial;
+   color: #9C27B0;
+   margin: 20px;
+   font-size: 44px;
+}
+.heading > h1{
+   text-shadow: 2px 2px 4px rgb(224, 220, 220);
+}
+.card{
+   width: 200px;
+   height: 250px;
+}
+.card-text{
+   font-weight: bold;
+}
+.btn-primary{
+   width: 100%;
+   background-color: #9C27B0 !important;
+}
+
+
+ 
+
+ 
